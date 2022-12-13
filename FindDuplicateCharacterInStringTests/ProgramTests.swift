@@ -22,4 +22,12 @@ final class ProgramTests: XCTestCase {
         
         XCTAssertEqual(result, [:])
     }
+    
+    func test_findDuplicateCharacter_deliverseEmptyOnNonDuplicatedString() {
+        let sut = Program()
+        
+        let result = sut.findDuplicateCharacter(in: "abc")
+        
+        XCTAssertEqual(result, [:])
+    }
 }
