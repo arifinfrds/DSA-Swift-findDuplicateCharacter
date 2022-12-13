@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		92811D0D29485CE100EEFA99 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92811D0C29485CE100EEFA99 /* main.swift */; };
+		92811D1A29485CF400EEFA99 /* ProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92811D1929485CF400EEFA99 /* ProgramTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,19 @@
 /* Begin PBXFileReference section */
 		92811D0929485CE100EEFA99 /* FindDuplicateCharacterInString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FindDuplicateCharacterInString; sourceTree = BUILT_PRODUCTS_DIR; };
 		92811D0C29485CE100EEFA99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		92811D1729485CF400EEFA99 /* FindDuplicateCharacterInStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindDuplicateCharacterInStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92811D1929485CF400EEFA99 /* ProgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		92811D0629485CE100EEFA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92811D1429485CF400EEFA99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				92811D0B29485CE100EEFA99 /* FindDuplicateCharacterInString */,
+				92811D1829485CF400EEFA99 /* FindDuplicateCharacterInStringTests */,
 				92811D0A29485CE100EEFA99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				92811D0929485CE100EEFA99 /* FindDuplicateCharacterInString */,
+				92811D1729485CF400EEFA99 /* FindDuplicateCharacterInStringTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +72,14 @@
 				92811D0C29485CE100EEFA99 /* main.swift */,
 			);
 			path = FindDuplicateCharacterInString;
+			sourceTree = "<group>";
+		};
+		92811D1829485CF400EEFA99 /* FindDuplicateCharacterInStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				92811D1929485CF400EEFA99 /* ProgramTests.swift */,
+			);
+			path = FindDuplicateCharacterInStringTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +102,23 @@
 			productReference = 92811D0929485CE100EEFA99 /* FindDuplicateCharacterInString */;
 			productType = "com.apple.product-type.tool";
 		};
+		92811D1629485CF400EEFA99 /* FindDuplicateCharacterInStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92811D1B29485CF500EEFA99 /* Build configuration list for PBXNativeTarget "FindDuplicateCharacterInStringTests" */;
+			buildPhases = (
+				92811D1329485CF400EEFA99 /* Sources */,
+				92811D1429485CF400EEFA99 /* Frameworks */,
+				92811D1529485CF400EEFA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindDuplicateCharacterInStringTests;
+			productName = FindDuplicateCharacterInStringTests;
+			productReference = 92811D1729485CF400EEFA99 /* FindDuplicateCharacterInStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +130,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					92811D0829485CE100EEFA99 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					92811D1629485CF400EEFA99 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -111,9 +151,20 @@
 			projectRoot = "";
 			targets = (
 				92811D0829485CE100EEFA99 /* FindDuplicateCharacterInString */,
+				92811D1629485CF400EEFA99 /* FindDuplicateCharacterInStringTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92811D1529485CF400EEFA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92811D0529485CE100EEFA99 /* Sources */ = {
@@ -121,6 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				92811D0D29485CE100EEFA99 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92811D1329485CF400EEFA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92811D1A29485CF400EEFA99 /* ProgramTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +317,34 @@
 			};
 			name = Release;
 		};
+		92811D1C29485CF500EEFA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arifinfrds.FindDuplicateCharacterInStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		92811D1D29485CF500EEFA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arifinfrds.FindDuplicateCharacterInStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -275,6 +362,15 @@
 			buildConfigurations = (
 				92811D1129485CE100EEFA99 /* Debug */,
 				92811D1229485CE100EEFA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92811D1B29485CF500EEFA99 /* Build configuration list for PBXNativeTarget "FindDuplicateCharacterInStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92811D1C29485CF500EEFA99 /* Debug */,
+				92811D1D29485CF500EEFA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
